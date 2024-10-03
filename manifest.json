@@ -1,0 +1,21 @@
+{
+    "name": " Title Picker",
+    "description": "Pick the titles from  current tab.",
+    "manifest_version": 3,
+    "icons": {
+        "16": "images/icon_16.png",
+        "32": "images/icon_32.png",
+        "128": "images/icon_128.png"
+      },
+      "action": {
+      "default_popup": "popup.html"
+     
+    },
+    "background":{
+        "service_worker":"background.js"
+    },
+    "version": "1.0",
+   
+    "permissions": ["activeTab"]
+    
+  }

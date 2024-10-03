@@ -1,0 +1,33 @@
+body{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.container{
+
+    width:300px;
+    text-align: center;
+}
+
+button{
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    color: white;
+    background-color: tomato;
+    font-size: 15px;
+    cursor: pointer;
+}
+ button:hover{
+    color: tomato;
+    background-color: white;
+    border: 1px solid tomato;
+}
+.selected_container{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.selected_container span{
+    color: red;
+}
